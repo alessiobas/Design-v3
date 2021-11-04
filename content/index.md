@@ -3,9 +3,11 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Startsida
 ==========================
 
-The source for this page is in `content/index.md`.
+Hallå där! Välkommen till min hemsida.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Alessio och bor i Stockholm. Jag tycker om att löpträna, yoga och vara ute i naturen. 
+
+![me](%assets_url%/img/runner_pic.jpeg)
