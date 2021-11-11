@@ -1,0 +1,30 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-background-color;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title p {
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 60%;
+        text-align: right;
+    }
+
+    .logo {
+        display: none !important;
+    }
+}

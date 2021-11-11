@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    // margin: 100px;
+    // margin-top: 0px;
+    background-color: $background-color;
+    color: $font-color;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 64em;
+    margin: 2em auto;
+    // margin-top: 50px;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 96%;
+    }
+}
