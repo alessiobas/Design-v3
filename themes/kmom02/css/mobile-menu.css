@@ -22,6 +22,10 @@
     display: none;
 }
 
+.nav a:hover {
+    color: #6fb8fd;
+}
+
 @media (max-width: 767px) {
     .header {
         flex-direction: column;

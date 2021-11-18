@@ -6530,6 +6530,19 @@ img {
 
 .title p {
   font-style: italic;
+  color: #000;
+}
+
+.title h1 {
+  color: #000;
+}
+
+.title p:hover {
+  color: #6fb8fd;
+}
+
+.title h1:hover {
+  color: #6fb8fd;
 }
 
 @media (max-width: 767px) {
@@ -6556,6 +6569,7 @@ img {
 
 .footer a {
   color: #ffff;
+  text-decoration: none;
 }
 
 .footer .social {
@@ -6595,4 +6609,78 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+.technology-container {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.squareobj {
+  grid-column: span 1;
+}
+
+.technology-container h1,
+.technology-container p {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.technology-container .technology {
+  box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
+  height: 5em;
+  border: 1px solid #faebd7;
+  padding: 1em;
+  color: #000;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px #fffcfc;
+}
+
+.technology-container .technology:hover {
+  background-color: rgba(255, 213, 0, 0.892);
+}
+
+.technology-article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.technology-article .sidebar {
+  width: 30%;
+}
+
+.technology-article .article {
+  width: auto;
+}
+
+.technology-article .sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebarlistitem {
+  color: #000;
+}
+
+.sidebarlistitem:hover {
+  color: rgba(255, 213, 0, 0.892);
+}
+
+@media (max-width: 767px) {
+  .technology-article .sidebar {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .squareobj {
+    grid-column: span 3;
+  }
+}
+@media (max-width: 1180px) {
+  .technology-container {
+    justify-content: stretch;
+  }
 }

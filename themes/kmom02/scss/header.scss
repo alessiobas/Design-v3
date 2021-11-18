@@ -12,6 +12,19 @@
 
 .title p {
     font-style: italic;
+    color: $font-color;
+}
+
+.title h1 {
+    color: $font-color;
+}
+
+.title p:hover {
+    color: $background-color;
+}
+
+.title h1:hover {
+    color: $background-color;
 }
 
 @media (max-width: 767px) {
