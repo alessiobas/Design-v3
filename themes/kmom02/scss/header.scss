@@ -2,7 +2,11 @@
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: $header-background-color;
+    background-image: $header-background-color;
+}
+
+.hidden {
+    display: none;
 }
 
 .title,
@@ -20,11 +24,11 @@
 }
 
 .title p:hover {
-    color: $background-color;
+    color: $hover-background-color-header;
 }
 
 .title h1:hover {
-    color: $background-color;
+    color: $hover-background-color-header;
 }
 
 @media (max-width: 767px) {

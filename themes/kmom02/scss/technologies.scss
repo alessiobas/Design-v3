@@ -26,7 +26,7 @@
 }
 
 .technology-container .technology:hover {
-    background-color: $hover-background-color;
+    background-color: $hover-background-color-body;
 }
 
 .technology-article {
@@ -53,7 +53,7 @@
 }
 
 .sidebarlistitem:hover {
-    color: $hover-background-color;
+    color: $hover-background-color-body;
 }
 
 @media (max-width: 767px) {

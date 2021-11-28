@@ -6491,14 +6491,14 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #5970ff;
-  color: #000;
+  background-color: #121212;
+  color: #d0d0d0;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  filter: grayscale(10%);
+  filter: grayscale(50%);
 }
 
 .main {
@@ -6521,7 +6521,7 @@ img {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(#ffd959, #ffde73);
+  background-image: linear-gradient(#100f0d, #2b2a2a);
 }
 
 .hidden {
@@ -6535,19 +6535,19 @@ img {
 
 .title p {
   font-style: italic;
-  color: #000;
+  color: #d0d0d0;
 }
 
 .title h1 {
-  color: #000;
+  color: #d0d0d0;
 }
 
 .title p:hover {
-  color: #5970ff;
+  color: #ababab;
 }
 
 .title h1:hover {
-  color: #5970ff;
+  color: #ababab;
 }
 
 @media (max-width: 767px) {
@@ -6568,12 +6568,12 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #b3932d;
-  color: #000;
+  background-color: #121111;
+  color: #aeaeae;
 }
 
 .footer a {
-  color: #000;
+  color: #aeaeae;
   text-decoration: none;
 }
 
@@ -6636,7 +6636,7 @@ pre code {
   height: 5em;
   border: 1px solid #faebd7;
   padding: 1em;
-  color: #000;
+  color: #d0d0d0;
   font-size: 1.5em;
   text-decoration: none;
   text-align: center;
@@ -6644,7 +6644,7 @@ pre code {
 }
 
 .technology-container .technology:hover {
-  background-color: rgba(255, 213, 0, 0.892);
+  background-color: #ababab;
 }
 
 .technology-article {
@@ -6667,11 +6667,11 @@ pre code {
 }
 
 .sidebarlistitem {
-  color: #000;
+  color: #d0d0d0;
 }
 
 .sidebarlistitem:hover {
-  color: rgba(255, 213, 0, 0.892);
+  color: #ababab;
 }
 
 @media (max-width: 767px) {
@@ -6702,7 +6702,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #000;
+  color: #d0d0d0;
 }
 
 .nav-toggle {
@@ -6710,5 +6710,5 @@ pre code {
 }
 
 .nav a:hover {
-  color: #5970ff;
+  color: #ababab;
 }
