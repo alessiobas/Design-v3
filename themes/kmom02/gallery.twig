@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        {{ content }}
+
+        <div class="gallery-container">
+        {% for image in meta["Images"] %}
+            <a href="{{ base_url }}{{ image.url }}" target="_blank">
+            <picture>
+                <source media="(min-width: 415px)" srcset="{{ base_url }}{{ image.url }}?w=333&h=333&crop-to-fit">
+                <img src="{{ base_url }}{{ image.url }}?w=250&h=250&crop-to-fit" alt="{{ image.alt }}">
+            </picture>
+            </a>
+        {% endfor %}
+        </div>
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/oeb5LdAyLC8" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

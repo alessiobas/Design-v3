@@ -1,7 +1,7 @@
 ---
 Title: Colors
 Description: Report colors
-Template: analys
+Template: reports
 ---
 
 Färger

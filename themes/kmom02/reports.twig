@@ -3,8 +3,21 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
-        {{ content }}
+    <div class="main technology-article" role="main">
+        <div class="sidebar">
+        <h2>Rapporter</h2>
+        <ul>
+        {% for page in pages("analysis") %}
+            <li><a class="sidebarlistitem" href="{{ page.url }}">
+                {{ page.title }}
+            </a></li>
+        {% endfor %}
+        </ul>
+        </div>
+
+        <div class="article">
+            {{ content }}
+        </div>
     </div>
     
     {% include 'incl/footer.twig' %}

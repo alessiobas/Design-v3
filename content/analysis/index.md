@@ -7,7 +7,9 @@ Template: reports
 Rapporter
 ==========================
 
-Färger
+Välj rapport till vänster
+
+<!-- Färger
 =======================
 
 I denna rapport kommer jag analysera färger från tre olika webbplatser. Analysen görs med en färgpipett i en webbläsare.
@@ -98,4 +100,4 @@ https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier
 Övrigt
 -----------------------
 
-Individuell rapport av Alessio Basile
+Individuell rapport av Alessio Basile -->
